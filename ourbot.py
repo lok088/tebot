@@ -13,4 +13,4 @@ def handle_text_messages(message):
 		bot.send_message(message.from_user.id, "I can answe to few simple questions.")
 	else:
 		bot.send_message(message.from_user.id, "I do not understand you. Try tape some enother text")
-bot.polling(none_stop=True, interval=100)
+bot.polling(none_stop=True, interval=100000)
